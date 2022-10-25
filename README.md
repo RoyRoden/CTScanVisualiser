@@ -14,6 +14,10 @@ Once imported open the scene named "CT" to explore its contents. The hiearchy sh
 * Texture3D_VFXGraph - this gameobject relies on VFX graph to generate a volume of particles which colours are samples from a 3D texture.
 * Texture3D_Shader - this gameobject uses a shader (copied directly from the 3D Texture Unity documentation) to render it.
 
+When used in combination with the Unity Virtual Camera app, you can use a compatible iOS device to "slice" through the volume of particles by moving the device.
+
+* Unity Virtual Camera manual: https://docs.unity.cn/Packages/com.unity.live-capture@2.0/manual/virtual-camera.html
+
 Notes:
 * Source images must all be of the same size when generating a 3D Texture.
 * Tested with 88 256x256 images on a gaming laptop equipped with an NVIDIA RTX 3080 graphics card. 
@@ -22,7 +26,3 @@ Notes:
 * Use the 3D Texture alone instead of the volume of particles (VFX Graph) for better performance. 
 * "Out-of-the-box" the included 3D Texture shader won't allow "slicing" the volume.
 * Check the documentation about 3D Textures at https://docs.unity3d.com/Manual/class-Texture3D.html.
-
-When used in combination with the Unity Virtual Camera app, you can use a compatible iOS device to "slice" through the volume of particles by moving the device.
-
-* Unity Virtual Camera manual: https://docs.unity.cn/Packages/com.unity.live-capture@2.0/manual/virtual-camera.html

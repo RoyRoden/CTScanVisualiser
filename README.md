@@ -1,5 +1,5 @@
 # CTScanVisualiser
-CTScanVisualiser is a Unity package that generates a 3D Texture from a series of CT scans and turn it into a volume of particles.
+CTScanVisualiser is a Unity package that generates a 3D Texture from a series of CT scans and turns it into a volume of particles using VFX Graph.
 **Notes:** 
 * Tested with Unity 2021 LTS HDRP.
 * The sample CT scan images are from a DICOM dataset provided freely by Medimodel for education and research, if you find them useful please share their page (https://medimodel.com/sample-dicom-files/).
@@ -16,7 +16,11 @@ Once imported open the scene named "CT" to explore its contents. The hiearchy sh
 
 Notes:
 * Source images must all be of the same size when generating a 3D Texture.
+* Tested with 88 256x256 images on a gaming laptop equipped with an NVIDIA RTX 3080 graphics card. 
 * The memory impact of 3D Texture increses rapidly based on the image resolution.
+* Increasing the image resolution can drastically affect performance when rendering the volume of particles (VFX Graph). 
+* Use the 3D Texture alone instead of the volume of particles (VFX Graph) for better performance. 
+* "Out-of-the-box" the included 3D Texture shader won't allow "slicing" the volume.
 * Check the documentation about 3D Textures at https://docs.unity3d.com/Manual/class-Texture3D.html.
 
 When used in combination with the Unity Virtual Camera app, you can use a compatible iOS device to "slice" through the volume of particles by moving the device.

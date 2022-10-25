@@ -4,6 +4,8 @@ A Unity scene setup to generate a 3D Texture from a series of CT scans and turn 
 ![CTScanVisualiser](https://user-images.githubusercontent.com/1048085/197761936-0833e41e-2d0f-4335-aa3f-a5eed0bdd02f.gif)
 
 ## Instructions
+* Import the Unity package inside a project.
+
 You'll find a scene named "CT" and if I didn't forget to package something should look like in the screenshot below.
 There are multiple gameobjects:
 * Texture3DGenerator - if you hit play it generates a 3D texture under the Assets folder using the MRI images inside the DICOM_PNGs_256 folder.

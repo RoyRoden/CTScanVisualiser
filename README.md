@@ -11,7 +11,7 @@ CTScanVisualiser is a Unity package that generates a 3D Texture from a series of
 
 Once imported open the scene named "CT" to explore its contents. The hiearchy should have the following gameobjects:
 * Texture3DGenerator - if you hit play it generates a 3D texture under the Assets folder using the MRI images inside the DICOM_PNGs_256 folder.
-* Texture3D_VFXGraph - this gameobject relies on VFX graph to generate a volume of particles which colours are samples from a 3D texture.
+* Texture3D_VFXGraph - this gameobject relies on VFX graph to generate a volume of particles which colours are sampled from a 3D texture.
 * Texture3D_Shader - this gameobject uses a shader (copied directly from the 3D Texture Unity documentation) to render it.
 
 When used in combination with the Unity Virtual Camera app, you can use a compatible iOS device to "slice" through the volume of particles by moving the device.

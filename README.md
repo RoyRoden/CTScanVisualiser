@@ -9,4 +9,3 @@ There are multiple gameobjects:
 * Texture3DGenerator - if you hit play it generates a 3D texture under the Assets folder using the MRI images inside the DICOM_PNGs_256 folder.
 * Texture3D_VFXGraph - this gameobject relies on VFX graph to generate a volume of particles which colours are samples from a 3D texture
 * Texture3D_Shader - this gameobject uses a shader (copied directly from the 3D Texture Unity documentation) to render it
-<img width="655" alt="CTScanVisualiser" src="https://user-images.githubusercontent.com/1048085/197761098-0e980b3c-efff-4ee4-9792-1c6e033c9bef.png">

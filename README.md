@@ -1,7 +1,7 @@
 # CTScanVisualiser
 CTScanVisualiser is a Unity package that generates a 3D Texture from a series of CT scans and turns it into a volume of particles using VFX Graph.
 **Notes:** 
-* Tested with Unity 2021 LTS HDRP.
+* Tested with Unity 2021 LTS HDRP on a gaming laptop equipped with an NVIDIA RTX 3080 graphics card.
 * The sample CT scan images are from a DICOM dataset provided freely by Medimodel for education and research, if you find them useful please share their page (https://medimodel.com/sample-dicom-files/).
 
 ![CTScanVisualiser](https://user-images.githubusercontent.com/1048085/197761936-0833e41e-2d0f-4335-aa3f-a5eed0bdd02f.gif)

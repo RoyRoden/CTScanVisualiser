@@ -10,7 +10,7 @@ CTScanVisualiser is a very minimal and rough Unity package that generates a 3D T
 * Import the Unity package inside a project.
 
 Once imported open the scene named "CT" to explore its contents. The hiearchy should have the following gameobjects:
-* Texture3DGenerator - When active and after hitting Play, this gameobject has a script attached (Scripts/TextureArrayGenerator) that generates a 3D texture in the root of the Assets folder using images from a source folder which name can be specified in the Inspector.
+* Texture3DGenerator - When active and after hitting Play, this gameobject has a script attached (Scripts/TextureArrayGenerator) that generates a 3D texture in the root of the Assets folder using images from a source folder which name can be specified in the Inspector as well as image resolution and total count.
 
 ![image](https://user-images.githubusercontent.com/1048085/201344074-2a205631-84d7-4cd5-afc7-b47b95007ac2.png)
 * Texture3D_VFXGraph - This gameobject relies on a VFX asset (VFX/VolumetricCT) to generate a volume of particles which colours are sampled from the 3D texture generated in the previous step. You can link a newly generated 3D Texture in the Properties section of the Inspector window.
